@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "proyecto")
+set(proyecto_MAINTAINER "erueda <erueda@correo.ugr.es>")
+set(proyecto_DEPRECATED "")
+set(proyecto_VERSION "0.0.0")
+set(proyecto_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(proyecto_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(proyecto_BUILDTOOL_DEPENDS "catkin")

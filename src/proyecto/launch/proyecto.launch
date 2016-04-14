@@ -1,0 +1,8 @@
+<launch>
+	<!-- We resume the logic in empty_world.launch, changing the name of the world to be launched -->
+	<include file="$(find baxter_gazebo)/launch/baxter_world.launch"/>
+
+
+	<!-- Start the Baxter pick and place demo -->
+	<node pkg="proyecto" type="proyecto.py" name="proyecto"/>
+</launch>
